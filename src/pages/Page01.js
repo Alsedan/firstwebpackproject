@@ -1,12 +1,13 @@
 import React from "react";
 import { Headerstyle } from "../components/HeaderPg1"
-
+import Global from "../theme/GlobalStyle"
 
 export default function Page01() {
         return (
-          <div className="Headerdiv">
+          <React.Fragment>
+            <Global/>
             <Headerstyle/>
-          </div>
+          </React.Fragment>
            
     );
   }

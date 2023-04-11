@@ -3,25 +3,38 @@ import styled from "styled-components";
 
 const Headerconst = styled.div `
 background-color:#2d66ab;
-position:relative;
+
 display:flex;
-justify-content: space-between;
-with:100%;
+width:100%;
 height:60px;
+align-items: center;
+justify-content: flex-end;
 `;
 
-const Headernavbar = styled.p `
-font-size: 14px;
-font-family: 'Read';
+const Headernavbaritens = styled.p `
 color:#FFFFFF;
+margin-right: 45px;
 `
+const Headerbutton = styled.button`
+background: #f58634;
+color: #FFFFFF;
+align: center;
+text-align:center;
+height: 35px;
+width: 156px;
+border: none;
+border-radius: 5px;
+margin-right: 50px;
+`
+
 
 export function Headerstyle() {
     return(
          <Headerconst>
-            <Headernavbar>Produtos</Headernavbar>
-            <Headernavbar>Suporte</Headernavbar>
-            <Headernavbar>Sobre a kaleb</Headernavbar>
+            <Headernavbaritens>Produtos</Headernavbaritens>
+            <Headernavbaritens>Suporte</Headernavbaritens>
+            <Headernavbaritens>Sobre a kaleb</Headernavbaritens>
+            <Headerbutton>Contrate agora</Headerbutton>
          </Headerconst>
     );
 }
