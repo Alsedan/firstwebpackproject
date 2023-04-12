@@ -2,15 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const Headerconst = styled.div `
-background-color:#2d66ab;
-
+background-color:rgba(45,102,171,0.9);
 display:flex;
 width:100%;
 height:60px;
 align-items: center;
 justify-content: flex-end;
-`;
-
+`
 const Headernavbaritens = styled.p `
 color:#FFFFFF;
 margin-right: 45px;
@@ -26,7 +24,6 @@ border: none;
 border-radius: 5px;
 margin-right: 50px;
 `
-
 
 export function Headerstyle() {
     return(

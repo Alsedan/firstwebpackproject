@@ -31,6 +31,7 @@
     "@babel/preset-react": "^7.18.6",
     "@types/styled-components": "^5.1.26",
     "babel-loader": "^9.1.2",
+    "file-loader": "^6.2.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "usestate": "1.1.3",

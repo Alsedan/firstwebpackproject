@@ -17,7 +17,11 @@ module.exports = {
                     loader:"html-loader"
                 }
             ]
-        }
+        },
+        {
+        test: /\.(pnj|jpe?g|gif)$/i,
+        loader: "file-loader"
+    }
     ]
 },
     plugins:[
