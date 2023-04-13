@@ -7,11 +7,10 @@ body {
     padding: 0;
 
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     text-size-adjust: auto;
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    
 }
 
 code{
